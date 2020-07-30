@@ -9,6 +9,23 @@
   	padding:5px;
   	height:30px;
   }
+  #desarrollado{
+
+    float:right;
+    font-weight:bold;
+    font-size:120%;
+    padding: 3px 10px;
+  }
+  a{
+
+    text-decoration: none;
+        font-family: sans-serif;
+    color:black;
+  }
+  a:hover{
+    color:blue;
+  }
+ 
   #logo {
   	float:left;
   	font-weight:bold;
