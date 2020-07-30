@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Code-Player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+ <body>
+        <div id="barra">
+            <div id="logo">CodePlayer</div>
+            <div id="contenedorBotones">
+                <div class="boton activo" id="html">HTML</div>
+                <div class="boton" id="css">CSS</div>
+                <div class="boton" id="javascript">JavaScript</div>
+                <div class="boton activo" id="output">Output</div>
+            </div>
+        
+        </div>
+        <div id="contenedorBody">
+            <textarea id="htmlPanel" class="panel">Hola a todos!</textarea>
+            <textarea id="cssPanel" class="panel oculto">p { color: green; }</textarea>
+            <textarea id="javascriptPanel" class="panel oculto">alert("Hola a todos!");</textarea>
+
+            <iframe id="outputPanel" class="panel"></iframe>
+        </div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
