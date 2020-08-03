@@ -3,6 +3,6 @@ Este proyecto es una herramienta que te permite aprender, experimentar y enseña
 
 <h2> Tecnologías implementadas </h2>
 <ul>
-<li>HTML</li>
-<li>CSS</li>
+<li>Html</li>
+<li>Css</li>
 <li>jQuery</li>
