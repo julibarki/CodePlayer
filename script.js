@@ -6,11 +6,22 @@ function actualizarSalida(){
 
 
 $(".boton").hover(function(){
+	$(this).css('cursor', 'pointer');
 	$(this).addClass("botonMarcado");
+	
 },function(){
+	$(this).css('cursor', 'pointer');
 	$(this).removeClass("botonMarcado");
+	
 });
 
+$("#logo").hover(function(){
+		$(this).css('cursor', 'pointer');
+})
+$( "#dialog" ).dialog({ autoOpen: false });
+$( "#logo" ).click(function() {
+  $( "#dialog" ).dialog( "open" );
+});
 
 $(".boton").click(function(){
 	$(this).toggleClass("activo");

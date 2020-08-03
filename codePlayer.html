@@ -4,29 +4,39 @@
 	<meta charset="utf-8">
 	<title>Code-Player</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 	<link rel="icon" type="image/png" href="code.png">
+	
+<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+	
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 </head>
- <body>
-        <div id="barra">
-            <div id="logo">CodePlayer</div>
-               <div id="desarrollado"> <a href="https://github.com/julibarki" target="_blank">By: Julian Barki</a> </div>
-            <div id="contenedorBotones">
-                <div class="boton activo" id="html">HTML</div>
-                <div class="boton" id="css">CSS</div>
-                <div class="boton" id="javascript">JavaScript</div>
-                <div class="boton activo" id="output">Output</div>
-            </div>
-        
-        </div>
-        <div id="contenedorBody">
-            <textarea id="htmlPanel" class="panel">Hola a todos!</textarea>
-            <textarea id="cssPanel" class="panel oculto">p { color: green; }</textarea>
-            <textarea id="javascriptPanel" class="panel oculto">alert("Hola a todos!");</textarea>
+<body>
 
-            <iframe id="outputPanel" class="panel"></iframe>
-        </div>
+	<div id="barra">
+		<div id="logo">CodePlayer
+			<img src="code.png" id="code"></div>
+			<div id="desarrollado"><a class="github-button"  href="https://github.com/julibarki"  data-size="large" aria-label="Follow @julibarki on GitHub">  Follow @julibarki</a>	 </div>
+			<div id="contenedorBotones">
+				<div class="boton activo" id="html">HTML</div>
+				<div class="boton" id="css">CSS</div>
+				<div class="boton" id="javascript">JavaScript</div>
+				<div class="boton activo" id="output">Output</div>
+			</div>
 
-	<script type="text/javascript" src="script.js"></script>
-</body>
-</html>
+		</div>
+		<div id="contenedorBody">
+			<textarea id="htmlPanel" class="panel">Hola a todos!</textarea>
+			<textarea id="cssPanel" class="panel oculto">p { color: green; }</textarea>
+			<textarea id="javascriptPanel" class="panel oculto"></textarea>
+
+			<iframe id="outputPanel" class="panel"></iframe>
+		</div>
+		<div id="dialog" title="CodePlayer">CodePlayer is a tool that enables you to learn, experiment and teach using web technologies in real time.</div>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+	</html>
