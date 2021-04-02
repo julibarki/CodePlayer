@@ -7,3 +7,5 @@ The operation of CodePlayer is quite simple. The screen is divided into differen
 <li>Html</li>
 <li>Css</li>
 <li>jQuery</li>
+<h2>Contributing</h2>
+<h4>If you like the project, shoot a 🌟 and feel free to fork & send PR anytime.</h4>
